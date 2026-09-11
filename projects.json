@@ -1,0 +1,48 @@
+[
+  {
+    "id": "ironhouse",
+    "wide": true,
+    "stack": ["TypeScript", "Next.js", "PostgreSQL", "Claude API"],
+    "title": "IronHouse — Adaptive Fitness Platform",
+    "description": "A full‑stack adaptive workout app that plans each day's training from a per‑muscle fatigue‑decay model instead of a fixed calendar — covered by 39 engine tests across 15 user scenarios. Ships real Web Push notifications, an installable PWA, and offline session sync.",
+    "invariant": "<b>Safety invariant:</b> a fatigued or reported‑painful muscle can never be a training target — enforced in code, and the Claude‑powered AI coach inherits that rule and can't override it.",
+    "linkUrl": "https://github.com/Runaway2/Iron_House",
+    "linkLabel": "View repository"
+  },
+  {
+    "id": "voice-transcription",
+    "wide": false,
+    "stack": ["Python", "OpenAI Whisper", "NLP"],
+    "title": "Voice Transcription & Summarizer",
+    "description": "Real‑time speech‑to‑text tool that transcribes mic input and generates AI summaries, chunking audio in 5‑second windows for low latency.",
+    "linkUrl": "https://github.com/Runaway2",
+    "linkLabel": "View on GitHub"
+  },
+  {
+    "id": "ai-chatbot-framework",
+    "wide": false,
+    "stack": ["Python", "OpenAI API", "Claude API"],
+    "title": "AI Chatbot Framework",
+    "description": "Modular multi‑model chatbot with GPT‑4 and Claude as swappable backends, context management, token streaming, and agentic tool‑use.",
+    "linkUrl": "https://github.com/Runaway2",
+    "linkLabel": "View on GitHub"
+  },
+  {
+    "id": "python-game-suite",
+    "wide": false,
+    "stack": ["Python", "Pygame", "GitHub Actions"],
+    "title": "Python Game Suite + AI Opponent",
+    "description": "Five-plus games — Snake, Tetris, Platformer — built from scratch; the Snake variant's AI opponent uses BFS pathfinding.",
+    "linkUrl": "https://github.com/Runaway2",
+    "linkLabel": "View on GitHub"
+  },
+  {
+    "id": "hackathon-robotics",
+    "wide": false,
+    "stack": ["Python", "Arduino", "ML"],
+    "title": "Hackathon Projects — AI & Robotics",
+    "description": "Multi‑award winner (2022–2024) for an ML‑powered obstacle‑avoidance robot and an NLP text classifier, both built under 24‑hour constraints.",
+    "linkUrl": "https://github.com/Runaway2",
+    "linkLabel": "View on GitHub"
+  }
+]
