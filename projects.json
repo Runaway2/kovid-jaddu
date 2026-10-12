@@ -2,10 +2,10 @@
   {
     "id": "ironhouse",
     "wide": true,
-    "stack": ["TypeScript", "Next.js", "PostgreSQL", "Claude API"],
+    "stack": ["TypeScript", "Next.js", "PostgreSQL"],
     "title": "IronHouse — Adaptive Fitness Platform",
     "description": "A full‑stack adaptive workout app that plans each day's training from a per‑muscle fatigue‑decay model instead of a fixed calendar — covered by 39 engine tests across 15 user scenarios. Ships real Web Push notifications, an installable PWA, and offline session sync.",
-    "invariant": "<b>Safety invariant:</b> a fatigued or reported‑painful muscle can never be a training target — enforced in code, and the Claude‑powered AI coach inherits that rule and can't override it.",
+    "invariant": "<b>Safety invariant:</b> a fatigued or reported‑painful muscle can never be a training target — enforced in code, and the AI coach inherits that rule and can't override it.",
     "linkUrl": "https://github.com/Runaway2/Iron_House",
     "linkLabel": "View repository"
   },
@@ -21,7 +21,7 @@
   {
     "id": "ai-chatbot-framework",
     "wide": false,
-    "stack": ["Python", "OpenAI API", "Claude API"],
+    "stack": ["Python", "OpenAI API"],
     "title": "AI Chatbot Framework",
     "description": "Modular multi‑model chatbot with GPT‑4 and Claude as swappable backends, context management, token streaming, and agentic tool‑use.",
     "linkUrl": "https://github.com/Runaway2",
